@@ -8,12 +8,12 @@
 }
 .logo-div {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 50%;
+    padding-left: 70px;
 }
 .anchor-logo {
     display: flex;
-    align-items: center;
     height: 10vh;
 }
 .logo-img {
@@ -27,6 +27,8 @@
 }
 ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1.4rem;
     width: 80%;
 }
@@ -34,12 +36,15 @@ li {
     display: flex;
     list-style: none;
     text-decoration: none;
-    align-self: center;
+    align-items: center;
     justify-content: center;
     height: 4vh;
     width: 120px;
 }
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: white;
     font-size: 1.15rem;
@@ -47,8 +52,27 @@ a {
     width: auto;
     align-items: center;
 }
-a:hover {
-    color: black;
+.list-group-item.active,
+.list-group-item:hover {
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 4px 4px #6d604a;
+    background-color: #EC5453;
+}
+@media (max-width:1134px) {
+    .logo-div {
+        padding-left: 30px;
+    }
+}
+@media (max-width:1059px) {
+    .logo-div {
+        padding-left: 10px;
+    }
+}
+@media (max-width: 904px) {
+    .logo-div {
+        padding-left: 0;
+    }
 }
 @media (max-width:598px) {
     .logo-div {

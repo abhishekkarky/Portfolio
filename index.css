@@ -110,14 +110,18 @@ html {
     font-family: 'Roboto', sans-serif;
     width: 150px;
     height: 40px;
-    border-radius: 10px;
     outline: 0;
     border: 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px #6d604a;
     background-color: #EC5453;
 }
-.button-anchor a:hover {
+.anchor {
+    font-size: 16px;
+}
+.button-anchor .anchor:hover {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
 }
 @media (max-width: 700px) {
     .index-main {
