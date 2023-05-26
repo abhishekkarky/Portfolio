@@ -2,21 +2,33 @@
     display: flex;
     margin-top: 10px;
     height: 12vh;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+.logo-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
 }
 .anchor-logo {
     display: flex;
     align-items: center;
-    height: 25vh;
+    height: 10vh;
 }
 .logo-img {
+    width: 40%;
+}
+.navigation-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 50%;
 }
 ul {
     display: flex;
-    gap: 2rem;
-    width: 300px;
+    gap: 1.4rem;
+    width: 80%;
 }
 li {
     display: flex;
@@ -38,3 +50,65 @@ a {
 a:hover {
     color: black;
 }
+@media (max-width:598px) {
+    .logo-div {
+        display: none;
+    }
+    .navigation-div {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+    }
+}
+@media (max-width:513px) {
+    ul {
+        gap: 0.8rem;
+    }
+}
+@media (max-width:477px) {
+    ul {
+        gap: 0.5rem;
+    }
+}
+@media (max-width:450px) {
+    ul {
+        gap: 0.3rem;
+    }
+}
+@media (max-width:443px) {
+    ul {
+        gap: 0.1rem;
+    }
+}
+@media (max-width:436px) {
+    ul {
+        gap: 0;
+    }
+    a {
+        font-size: 1rem;
+    }
+}
+@media (max-width:414px) {
+    ul {
+        gap: 0;
+    }
+    li {
+        width: 100px;
+    }
+    a {
+        font-size: 1rem;
+    }
+}
+@media (max-width:375px) {
+    li {
+        width: 90px;
+    }
+}
+@media (max-width:375px) {
+    li {
+        width: 80px;
+    }
+}
+
+
