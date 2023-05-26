@@ -97,7 +97,6 @@ html {
     align-items: center;
     justify-content: space-evenly;
     width: 5%;
-    /* height: 44vh; */
 }
 .icons {
     margin-top: 20px;
@@ -106,6 +105,19 @@ html {
 }
 .icons img {
     width: 100%;
+}
+.button-anchor {
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: #EC5453;
+}
+.button-anchor a:hover {
+    color: white;
+    font-size: 20px;
 }
 @media (max-width: 700px) {
     .index-main {

@@ -1,6 +1,6 @@
 ::selection{
     color: #fff;
-    background: #ff7979;
+    background: #EC5453;
 }
 .wrapper{
     max-width: 1080px;
@@ -58,7 +58,7 @@
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ff7979;
+    color: #EC5453;
     font-size: 17px;
     box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
@@ -85,13 +85,15 @@
 .row section .details .title{
     font-size: 22px;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
 }
 .row section p{
     margin: 10px 0 17px 0;  
 }
 .row section .bottom a{
     text-decoration: none;
-    background: #ff7979;
+    background: #EC5453;
     color: #fff;
     padding: 7px 15px;
     border-radius: 5px;

@@ -7,7 +7,7 @@
     width: 80%;
 }
 .projects-main-container-heading {
-    text-align: center;
+    padding-left: 33px;
 }
 .projects-main-container-heading h1 {
     font-size: 2rem;
@@ -44,7 +44,7 @@
 }
 .date-div .fa-solid {
     font-size: 0.75rem;
-    color: black;
+    color: #EC5453;
 }
 .projects-tile-image-div {
     width: 100%;
@@ -78,9 +78,9 @@
     display: flex;
     border: 0;
     outline: none;
-    width: 90px;
+    width: 100px;
     height: 30px;
-    background-color: black;
+    background-color: #EC5453;
     color: white;
     justify-content: center;
     align-items: center;
@@ -91,4 +91,9 @@
 .projects-tile-anchor:hover {
     opacity: 0.8;
     color: white;
+}
+@media (max-width:414px) {
+    .projects-main-container-heading {
+        padding-left: 0;
+    }
 }
